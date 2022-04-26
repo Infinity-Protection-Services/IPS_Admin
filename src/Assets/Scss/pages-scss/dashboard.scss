@@ -1,0 +1,153 @@
+.Dashboard-heading-container {
+  height: 43px;
+  align-items: center;
+  font-family: $SF-pro-text-semibold;
+  font-size: 14px;
+  background: #f6f6f6;
+
+  .Dashboard-heading {
+    margin-left: 18px;
+  }
+}
+.dashboard-wrapper {
+  background-color: #f5f5f5;
+  margin: 1px;
+  margin-top: 14px;
+  padding: 2px;
+  padding-top: 15px;
+
+  .dashboard-options {
+    display: flex;
+    top: 0;
+    position: relative;
+    margin-top: -11px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    font-family: $SF-pro-text;
+
+    .aud-overview {
+      display: flex;
+    }
+    span {
+      margin-left: 10px;
+      font-size: 10px;
+    }
+    .export-svg {
+      font-size: 13px;
+    }
+  }
+
+  .dashboard-users {
+    font-family: $SF-pro-text;
+    font-size: 14px;
+    color: #888888;
+
+    .view-all-users {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 0px 12px 12px;
+      color: $sidebar-project-image;
+    }
+  }
+  .background-dashboard {
+    background: #f5f5f5;
+    > div {
+      border: 1px solid #cfc9c9;
+      svg {
+        width: auto;
+        height: 50px;
+        margin: 8px 0px 0px 5px;
+        color: #cfc9c9;
+      }
+      h4 {
+        font-family: $SF-pro-text;
+        color: #cfc9c9;
+        margin-top: 5px;
+      }
+    }
+  }
+  .mini-stats-wid .mini-stat-icon {
+    margin-left: 9px;
+  }
+  .mini-stats-wid {
+    .card-body {
+      height: 75px;
+      > div {
+        display: flex;
+        height: 100%;
+      }
+      .dashboard-card {
+        display: flex;
+        float: right;
+        padding: 15px 0px 0px 10px;
+
+        div p {
+          font-family: $SF-pro-text;
+        }
+
+        div:nth-child(2) {
+          position: absolute;
+          right: 0;
+          display: flex;
+          padding-right: 12px;
+          bottom: 0;
+
+          i {
+            margin: 4px 4px;
+            color: green;
+          }
+          p {
+            font-family: $SF-pro-text-bold;
+          }
+        }
+      }
+    }
+    .avatar-title {
+      img {
+        border-radius: 50%;
+        width: 100%;
+      }
+      .dashboard_all_users {
+        background: #c4d4fb;
+      }
+      .dashboard_bounced_Session {
+        background: #d0f2fe;
+      }
+      .dashboard_direct_Traffic {
+        background: #f1b7cd;
+      }
+    }
+  }
+  .card-title {
+    font-size: 16px;
+    margin: 15px;
+    font-family: $SF-pro-text;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-wrapper {
+    .customer-support-dropdown {
+      margin-top: 0px;
+    }
+    .aud-overview {
+      font-size: 12px;
+      svg {
+        font-size: 17px;
+      }
+    }
+    span {
+      font-size: 9px !important;
+    }
+    .export-svg {
+      font-size: 13px;
+    }
+
+    .dashboard-users {
+      .view-all-users {
+        margin: 0px 6px;
+      }
+    }
+  }
+}

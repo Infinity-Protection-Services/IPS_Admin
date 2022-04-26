@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.53" height="10.53" viewBox="0 0 10.53 10.53">
+  <g id="remove" transform="translate(-285 -267)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(285 267)" fill="#fff"/>
+    <!-- <path id="Path_1525" data-name="Path 1525" d="M19.265,14a5.265,5.265,0,1,0,5.265,5.265A5.262,5.262,0,0,0,19.265,14Zm0,9.945a4.68,4.68,0,1,1,4.68-4.68A4.694,4.694,0,0,1,19.265,23.945Z" transform="translate(271 253)" fill="#000000"/> -->
+    <path id="Path_1526" data-name="Path 1526" d="M37.256,34.682H35.267V32.693a.293.293,0,1,0-.585,0v1.989H32.693a.293.293,0,1,0,0,.585h1.989v1.989a.293.293,0,1,0,.585,0V35.267h1.989a.293.293,0,0,0,0-.585Z" transform="translate(290.265 222.804) rotate(45)" fill="#000000"/>
+  </g>
+</svg>

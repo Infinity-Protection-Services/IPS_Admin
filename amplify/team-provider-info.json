@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ipsweb-dev-152933-authRole",
+      "UnauthRoleArn": "arn:aws:iam::434893476495:role/amplify-ipsweb-dev-152933-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::434893476495:role/amplify-ipsweb-dev-152933-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ipsweb-dev-152933-deployment",
+      "UnauthRoleName": "amplify-ipsweb-dev-152933-unauthRole",
+      "StackName": "amplify-ipsweb-dev-152933",
+      "StackId": "arn:aws:cloudformation:us-east-1:434893476495:stack/amplify-ipsweb-dev-152933/50dbd290-863e-11eb-bb21-12d806c7dd7d",
+      "AmplifyAppId": "dqt6jvi24eomz"
+    },
+    "categories": {
+      "auth": {
+        "ipsweb5ed2b0d2": {}
+      }
+    }
+  }
+}

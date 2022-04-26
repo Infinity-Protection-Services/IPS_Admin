@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2647" data-name="Group 2647" transform="translate(-435 -127)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="16" cy="16" r="16" transform="translate(435 127)" fill="#de3260" opacity="0.3"/>
+    <g id="finance-bar" transform="translate(384.943 65.827)">
+      <path id="Path_1531" data-name="Path 1531" d="M59.028,73.173a.969.969,0,0,1,.717.315l2.706,2.955,4.841-2.126a.972.972,0,0,1,1.173.314l2.97,4.04.249-1.739a.972.972,0,1,1,1.923.276l-.59,4.113a.972.972,0,0,1-1.1.824l-4.113-.59a.972.972,0,1,1,.276-1.923l1.843.264-2.563-3.486L62.6,78.5a.972.972,0,0,1-1.107-.233L58.312,74.8a.972.972,0,0,1,.716-1.628Z" transform="translate(0)" fill="#de3260"/>
+    </g>
+  </g>
+</svg>

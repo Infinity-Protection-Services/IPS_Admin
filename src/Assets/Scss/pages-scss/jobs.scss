@@ -1,0 +1,218 @@
+.jobs-detail-modal {
+  tr td {
+    font-family: $SF-pro-text;
+    p {
+      white-space: normal;
+    }
+  }
+}
+.paypal_payment {
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+  opacity: 0;
+}
+.new-job-detail-table-wrapper {
+  .job-detail-wrapper {
+    .dataTables_wrapper {
+      .row:nth-child(1) {
+        margin: 24px 0px 18px 32px;
+      }
+    }
+  }
+
+  .in-progress-detail-wrapper {
+    .dataTables_wrapper {
+      tr {
+        th:nth-child(5) {
+          width: 190px;
+        }
+
+      }
+    }
+  }
+
+  .job-detail-table-name {
+    width: 100%;
+    justify-content: center;
+    background: #e0eaf5;
+    color: #0d5ea4;
+    font-size: 15px;
+    font-family: $SF-pro-text-bold;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 40px;
+    height: 50px;
+  }
+  svg {
+    width: 15px;
+    color: green;
+    margin: -5px 0px 0px 5px;
+  }
+  .add_backup_provider_button{
+    width: 108px;
+    height: 45px;
+    margin-left: 68%;
+    background: $sidebar-project-image 0% 0% no-repeat padding-box;
+    color: white;
+    position: absolute;
+    font-family: $SF-pro-text;
+    // right: 15px;
+    border: initial;
+    // margin-right:87%;
+    z-index: 1;
+    &:hover {
+      background: #084f8d;
+    }
+  }
+
+  .details_width_wrapper {
+    word-break: break-all;
+  }
+  .dataTables_wrapper {
+    .row:nth-child(2) td:nth-child(3) {
+      width: 0px !important;
+    }
+    tbody td {
+      font-size: 11px;
+      opacity: 1;
+      font-family: $SF-pro-text;
+      text-align: left;
+      // padding: 0px 50px 5px 11px !important;
+    }
+  }
+}
+
+.payment_history_details .dataTables_wrapper {
+  [data-test="datatable-head"] {
+    tr:nth-child(1) {
+      th:nth-child(3) {
+        width: 180px;
+      }
+    }
+  }
+}
+.new-jobs-table-wrapper {
+  .job-filter {
+    padding: 15px;
+  }
+  .dataTables_wrapper {
+    [data-test="datatable-head"] tr:nth-child(1) th:nth-child(3) {
+      width: 0%;
+    }
+    td:nth-child(2) {
+      font-size: 11px;
+      opacity: 1;
+      font-family: $SF-pro-text;
+      padding: 21px 0px 13px 10px;
+      text-align: left;
+    }
+    td:last-child {
+      a {
+        color: $sidebar-project-image;
+        text-decoration: underline;
+        text-align: end;
+      }
+    }
+  }
+}
+
+.job-requester-details .job-overview-wrapper {
+  .label {
+    display: flex;
+    // width: auto;
+  }
+  .c-detail{
+    width: 60%;
+  }
+  p {
+    font-family: $SF-pro-text-bold;
+  }
+  div {
+    font-family: $SF-pro-text;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .new-jobs-table-wrapper {
+    .job-filter {
+      padding: 5px;
+    }
+    .customer-support-dropdown {
+      margin-top: 0px;
+      background: transparent;
+    }
+    // to handle filter dropdown
+    .tooltip[x-placement^="bottom"],
+    .show[x-placement^="bottom"]:not(.tooltip) {
+      margin: -3px 3px;
+    }
+  }
+  .new-job-detail-table-wrapper {
+    .job-detail-table-name {
+      margin-top: 15px;
+    }
+    .details_width_wrapper {
+      margin-left: 4px;
+      width: 250px;
+    }
+    .w-13p {
+      width: 19%;
+    }
+    .add_backup_provider_button{
+      height: 40px;
+      margin-left: 54%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  .new-job-detail-table-wrapper {
+    .job-detail-label-p,
+    .address-p {
+      width: 120px;
+    }
+
+    .details_width_wrapper {
+      margin-left: 4px;
+      width: 230px;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  .new-job-detail-table-wrapper {
+    .details_width_wrapper {
+      margin-left: 4px;
+      width: 150px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .new-job-detail-table-wrapper {
+    .address-p {
+      width: 120px;
+    }
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .new-job-detail-table-wrapper {
+    .details_width_wrapper {
+      margin-left: 4px;
+      width: 120px;
+      word-break: break-all;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .new-job-detail-table-wrapper {
+    .details_width_wrapper {
+      margin-left: 4px;
+    }
+  }
+}
+

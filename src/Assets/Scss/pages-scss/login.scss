@@ -1,0 +1,79 @@
+.account-pages {
+  height: 80vh;
+  .success-message-wrapper {
+    .sign-text {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+
+  .change-password-wrapper {
+    .sign-text {
+      margin-left: 12px;
+      font-size: 12px;
+    }
+    .confirm-error {
+      width: 100%;
+      margin-top: -0.75rem;
+      color: #f46a6a;
+      font-family: $SF-pro-text;
+      font-size: 80%;
+    }
+  }
+  .navbar-header {
+    height: 83px;
+  }
+  .container {
+    margin: 10vh auto;
+    .btn-Auth:focus {
+      box-shadow: 0 0 0 0.15rem rgb(255, 255, 255);
+    }
+  }
+  .card-body {
+    margin: 0px 55px 0px 55px;
+
+    .sign-title {
+      text-align: center;
+      font-family: $SF-pro-text;
+      font-size: 18px;
+    }
+    .sign-text {
+      font-family: $SF-pro-text;
+      font-size: 12px;
+      b {
+        font-family: $SF-pro-text-bold;
+      }
+    }
+
+    .form-group {
+      font-family: $SF-pro-text;
+    }
+    .btn {
+      background: transparent
+        linear-gradient(
+          264deg,
+          #5fc8d7 0%,
+          #5fc8d7 1%,
+          #44c4da 14%,
+          #0b67b2 65%,
+          #14244c 100%
+        )
+        0% 0% no-repeat padding-box;
+    }
+    .custom-control {
+      margin-top: 13px;
+      span {
+        font-family: $SF-pro-text;
+      }
+    }
+
+    .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: black;
+      border-radius: 0px;
+    }
+  }
+}
+
+.success-image-wrapper {
+  text-align: center;
+}

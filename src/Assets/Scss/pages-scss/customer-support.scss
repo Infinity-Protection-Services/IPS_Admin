@@ -1,0 +1,338 @@
+.customer-support-dropdown {
+  top: 0;
+  right: 50%;
+  background: white;
+  color: black !important;
+  padding: 18px;
+  height:51px;
+  background: #f4f8fb;
+  .customer-dropdown-toggle {
+    background-color: white;
+    color: black !important;
+    background-color: white;
+    height: 20px;
+    width: 96px;
+    padding: 0px;
+    border-radius: 0px;
+    font-size: 9px;
+    position: relative;
+    text-indent: calc(50% - 79px);
+    margin-top: -3px;
+
+    .arrow {
+      position: absolute;
+      right: 0;
+      top: -3px;
+    }
+  }
+}
+
+.customer-support-dropdown-new {
+  top: 0;
+  right: auto;
+  background: white;
+  color: black !important;
+  padding: 18px;
+  left: 0px;
+  width: auto;
+
+  .customer-dropdown-toggle {
+    background-color: white;
+    color: black !important;
+    background-color: white;
+    height: 24px;
+    width: 96px;
+    padding: 0px;
+    border-radius: 3.5px;
+    font-size: 9px;
+    position: relative;
+    text-indent: calc(50% - 79px);
+
+    .arrow {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.send-message {
+  width: 25px;
+  margin-left: 20px;
+}
+.support-discussion {
+  // height: 67vh;
+  .time-stamp {
+    margin: 6px 11px 2px 0px;
+    text-align: right;
+    font-family: $SF-pro-text;
+    font-size: 10px;
+  }
+
+  .received-message,
+  .sent-message {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    float: left;
+    max-width: 50%;
+    font-family: $SF-pro-text;
+    margin-bottom: 6px;
+    // width: 100%;
+    span {
+      width: 100%;
+      white-space: pre-line;
+    }
+    // }
+  }
+  .admins-message {
+    display: inline-grid;
+    clear: left;
+    float: right;
+  }
+  .sent-message {
+    float: right;
+    center: left;
+    margin-top: 2px;
+    max-width: 50%;
+    margin: 2px 11px 5px 0px;
+  }
+  .message-input {
+    clear: left;
+    position: absolute;
+    /* background: black; */
+    bottom: -60px;
+    width: 100%;
+    display: flex;
+    // padding-top: 5px;
+    // font-family: $SF-pro-text;
+  }
+  .Heading-Wrapper .add_button {
+    &:hover {
+      background: #0aa71f;
+    }
+  }
+}
+.resolve-text {
+  display: inline-block !important;
+  width: 250px !important;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #ea7715;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 7px 2px;
+}
+
+.select {
+  width: 96px;
+  height: 24px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid black;
+  opacity: 1;
+  margin: 14px 30px;
+  outline: none;
+}
+
+.dropdown-menu-right-custom {
+  min-width: 100px;
+  margin-top: -15px;
+}
+
+.dropdown-menu-right-custom button {
+  font-family: $SF-pro-text;
+  text-align: center;
+  font-size: 10px;
+  outline: none;
+  padding: 4px;
+  &:hover {
+    background: $sidebar-project-image;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.tooltip[x-placement^="bottom"],
+.show[x-placement^="bottom"]:not(.tooltip) {
+  margin: -9px 16px;
+}
+
+.customer-support-table-wrapper .dataTables_wrapper {
+  .row:nth-child(1) {
+    padding-top: 10px;
+    position: absolute;
+    top: -65px;
+    margin-top: 0px;
+    width: 100% !important;
+  }
+  .row:nth-child(1) > div:nth-child(1) {
+    top: 73px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-left: 90%;
+    width: 100% !important;
+  }
+  .row:nth-child(1) > div:nth-child(2) {
+    width: 130px;
+  }
+
+  .row:nth-child(2) {
+    margin-top: 17px;
+    border: 1px solid #232f3b4e;
+    margin: 24px -70px 14px 7px;
+    position: relative;
+    [data-test="datatable-table"] thead {
+      th:nth-child(1) {
+        width: 130px;
+      }
+      th:nth-child(2) {
+        width: 150px;
+      }
+      th:nth-child(3) {
+        width: 180px;
+      }
+    }
+    tbody tr:nth-child(1) {
+      td {
+        font-size: 11px;
+        opacity: 1;
+        font-family: $SF-pro-text;
+        padding: 17px 0px 13px 10px;
+        text-align: left;
+      }
+    }
+    .col-sm-12 tbody tr:not(:first-child) {
+      td {
+        font-size: 11px;
+        opacity: 1;
+        font-family: $SF-pro-text;
+        padding: 13px 0px 13px 10px;
+        text-align: left;
+      }
+    }
+  }
+  .row:nth-child(3) {
+    position: absolute;
+    right: 0px;
+    margin: 15px -100px;
+  }
+}
+
+.space-between{
+  white-space: pre;
+
+}
+
+.mt-40{
+  margin-top: -45px;
+}
+.customer-support-table-wrapper-new .dataTables_wrapper {
+  .row:nth-child(1) {
+
+    position: absolute;
+    top: -42px;
+    margin-top: 0px;
+    width: 100% !important;
+    padding-top: 0px;
+    padding-left: 14px;
+  }
+  .row:nth-child(1) > div:nth-child(1) {
+    top: 49px;
+    margin-left: -180px;
+    width: 100% !important;
+    left: 100%;
+  }
+  .row:nth-child(1) > div:nth-child(2) {
+    width: 20%;
+  }
+
+  .row:nth-child(2) {
+    margin-top: 17px;
+    border: 1px solid #22262b4e;
+    margin: 25px 2px 0px 2px;
+    position: relative;
+    [data-test="datatable-table"] thead {
+      th:nth-child(1) {
+        width: 10%;
+      }
+      th:nth-child(2) {
+        width: 20%;
+      }
+      th:nth-child(3) {
+        width: 20%;
+      }
+    }
+    tbody tr:nth-child(1) {
+      td {
+        font-size: 11px;
+        opacity: 1;
+        font-family: $SF-pro-text;
+        padding: 17px 0px 13px 10px;
+        text-align: left;
+      }
+    }
+    .col-sm-12 tbody tr:not(:first-child) {
+      td {
+        font-size: 11px;
+        opacity: 1;
+        font-family: $SF-pro-text;
+        padding: 13px 0px 13px 10px;
+        text-align: left;
+        word-break: break-all;
+      }
+    }
+  }
+  .row:nth-child(3) {
+    position: absolute;
+    right: 8%;
+    margin: 0px -100px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .customer-support-table-wrapper-new  {
+    .dataTables_wrapper {
+      .row:nth-child(3) {
+        // margin: 15px -73px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .row:nth-child(1) > div:nth-child(1) {
+
+    // margin-left: 75%;
+
+  }
+  .customer-support-table-wrapper-new {
+    // margin-top: 20px;
+    .dataTables_wrapper {
+      .row:nth-child(1) {
+        // top: -19px;
+        > div:nth-child(1) {
+          // margin-top: 10px;
+
+        }
+      }
+      .row:nth-child(3) {
+        margin: -7px -30px;
+      }
+    }
+  }
+  .customer-support-dropdown {
+    margin-top: 0px;
+    right: 60%;
+  }
+
+  .dropdown-menu-right-custom {
+    max-width: 80px !important;
+
+  }
+}

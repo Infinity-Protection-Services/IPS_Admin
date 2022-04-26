@@ -1,0 +1,247 @@
+[
+  {
+    "noOfExperience": "1",
+    "CityData": [
+      {
+        "city": "NY",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "26.00"
+          }
+        ]
+      },
+      {
+        "city": "NJ",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "24.70"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "49.40"
+          }
+        ]
+      },
+      {
+        "city": "PA",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "18.81"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "37.62"
+          }
+        ]
+      },
+      {
+        "city": "CT",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "21.45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "noOfExperience": "2",
+    "CityData": [
+      {
+        "city": "NY",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "28.60"
+          }
+        ]
+      },
+      {
+        "city": "NJ",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "27.30"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "54.60"
+          }
+        ]
+      },
+      {
+        "city": "PA",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "20.67"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "41.34"
+          }
+        ]
+      },
+      {
+        "city": "CT",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "23.66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "noOfExperience": "3",
+    "CityData": [
+      {
+        "city": "NY",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "31.20"
+          }
+        ]
+      },
+      {
+        "city": "NJ",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "29.90"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "59.80"
+          }
+        ]
+      },
+      {
+        "city": "PA",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "22.75"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "45.50"
+          }
+        ]
+      },
+      {
+        "city": "CT",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "26.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "noOfExperience": "4",
+    "CityData": [
+      {
+        "city": "NY",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "33.80"
+          }
+        ]
+      },
+      {
+        "city": "NJ",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "32.50"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "65.00"
+          }
+        ]
+      },
+      {
+        "city": "PA",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "25.09"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "50.18"
+          }
+        ]
+      },
+      {
+        "city": "CT",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "28.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "noOfExperience": "Supervisor",
+    "CityData": [
+      {
+        "city": "NY",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "36.40"
+          }
+        ]
+      },
+      {
+        "city": "NJ",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "35.10"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "70.20"
+          }
+        ]
+      },
+      {
+        "city": "PA",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "27.56"
+          },
+          {
+            "personType": "Armed Officers",
+            "Price": "55.12"
+          }
+        ]
+      },
+      {
+        "city": "CT",
+        "PriceData": [
+          {
+            "personType": "Unarmed Officers",
+            "Price": "31.46"
+          }
+        ]
+      }
+    ]
+  }
+]

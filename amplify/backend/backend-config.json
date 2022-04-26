@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "ipsweb5ed2b0d2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
