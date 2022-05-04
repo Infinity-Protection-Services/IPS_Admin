@@ -31,9 +31,8 @@
       width: 100%;
       input {
         border: none;
-        // background: red;
-        // width: 100%;
         width: 94%;
+        border-radius: 5px;
       }
     }
   }
@@ -129,6 +128,7 @@
     height: 130px;
     border: 1px solid #d1d1d1;
     opacity: 1;
+    border-radius: 5px;
 
     img {
       width: 100%;
@@ -218,6 +218,7 @@
       height: 130px;
       width: 100px;
       object-fit: scale-down;
+      border-radius: 4px;
     }
     .remove-add-product-image {
       position: absolute;
@@ -245,10 +246,11 @@
     height: 130px;
     border: 1px dashed #d1d1d1;
     opacity: 1;
-    border-radius: 0px;
+    border-radius: 4px;
     min-height: 130px !important;
     outline: none;
     cursor: pointer;
+
   }
 
   .common-wrapper {
@@ -381,10 +383,11 @@
     }
   }
   .product-image {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 43px;
     border: 1px solid #d1d1d1;
     object-fit: scale-down;
+    border-radius: 3px;
   }
 }
 

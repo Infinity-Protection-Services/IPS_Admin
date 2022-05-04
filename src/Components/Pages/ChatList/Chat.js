@@ -146,7 +146,7 @@ function ChatList(props) {
         <div className="w-100 user-chat">
           <Card>
             <div>
-              <div className="chat-conversation p-3">
+              <div className="chat-conversation p-3" style={{border:"1px solid #232f3b4e",borderRadius:"4px"}}>
                 <ul className="list-unstyled">
                   <div className="scrolling-area">
                     <div className="scrolling-element-inside">

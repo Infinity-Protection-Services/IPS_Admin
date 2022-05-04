@@ -132,6 +132,7 @@ function CompleteJobs(props) {
               paginationLabel={[<MDBIcon icon="angle-left" size="sm" />, <MDBIcon icon="angle-right" size="sm" />,]}
               noRecordsFoundLabel={<div className="no-data-found ta-l">{props.t("No complete jobs found!")}</div>}
             />
+            <br/>
             Showing 1 to 10 of {data.rows.length} entries.
 
           </div>

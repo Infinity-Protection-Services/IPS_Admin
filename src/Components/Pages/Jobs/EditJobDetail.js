@@ -1233,7 +1233,7 @@ class EditJobDetail extends Component {
                 className="form-control"
                 type="text"
                 value={values.title}
-                placeholder="title"
+                placeholder="Title"
                 name="title"
                 onChange={handleChange}
                 onBlur={handleBlur}

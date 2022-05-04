@@ -187,7 +187,7 @@ function PaymentTable(props) {
                 <MDBDataTable
                   ref={ele => refundRef = ele}
                   noBottomColumns={true}
-                  noRecordsFoundLabel={<div className="no-data-found">{props.t('No refund found!')}</div>}
+                  noRecordsFoundLabel={<div className="no-data-found">{props.t('No refund data found!')}</div>}
                   paginationLabel={[<MDBIcon icon="angle-left" size="lg" />, <MDBIcon icon="angle-right" size="lg" />,]}
                   info={false}
                   responsive
