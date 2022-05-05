@@ -215,7 +215,7 @@ function PaymentDetails(props) {
               </div>}>
             <AvForm>
 
-              <span className="product-delete sf-pro-text " >
+              <span className="product-delete sf-pro-text" style={{fontSize:"18px"}}>
                 {props.t("Are you sure you want to ")} {confirmPayment.task} ${payableAmount}? <br />
 
               </span>

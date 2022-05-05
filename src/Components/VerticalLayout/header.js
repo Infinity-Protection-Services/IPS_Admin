@@ -15,6 +15,8 @@ import eye from "../../Assets/Images/web/info.svg";
 import infoData from "../../Common/info";
 import { useLocation, useHistory } from "react-router-dom";
 import closeIcon from "../../Assets/Images/web/remove-toggle.svg";
+import  logout from "../../Assets/Images/web/logout.svg";
+
 
 
 function Header(props) {
@@ -140,19 +142,21 @@ function Header(props) {
           </div>
 
           <commonMethods.ActionProduct
-            className="p-a right-75 cur-point w-40 "
+            className="p-a right-45 cur-point w-40 "
             src={commissionIcon}
             id="Commission"
             onClick={() => setRateDialogVisibility(true)}
           />
           <commonMethods.ActionProduct
-            className="p-a right-120 cur-point w-40 "
+            className="p-a right-80 cur-point w-40 "
             src={eye}
             id="View"
             onClick={() => setInfoDialog(true)}
           />
-          <span
-            className="cur-point"
+          <commonMethods.ActionProduct
+            className="pr-3 right-10 cur-point p-a w-40 "
+            src={logout}
+            id="Logout"
             onClick={() => {
               props.actions.LogoutWithCognitoHandler();
 
@@ -163,10 +167,8 @@ function Header(props) {
               // window.location.reload();
               history.push("/login");
             }}
-            style={{ padding: "15px", color: "red" }}
-          >
-            {props.t("Logout")}
-          </span>
+          />
+
         </div>
       </header>
       {infoDialog && (
@@ -254,6 +256,7 @@ function Header(props) {
             <>
               <AvForm id="create-course-form" className="needs-validation">
                 <div className="sweet-alert">
+                <p style={{fontSize:"22px"}}>Commission Rate</p>
                   <div className="form-wrapper">
                     <span className="category">
                       {props.t("Commission Rate*")}

@@ -259,7 +259,7 @@ function SupportDiscussion(props) {
               <div className="message-input p-a b-0 w-100p d-flex" style={{ clear: 'left', bottom: '-58px' }} >
                 <textarea
                   type="textarea" name="description" id="description"
-                  style={{ width: "94%" }}
+                  style={{ width: "95.5%" }}
                   placeholder={props.t("Enter Response")}
                   autoComplete="off"
                   tabIndex={-1}

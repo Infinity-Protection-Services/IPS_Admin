@@ -429,9 +429,9 @@ const { Data, metaData } = props
                         <>
                         <div className="boxInfo">
 
-                          <h3 style={{ color: "#196fab" }}>
+                          <p style={{ fontSize:"22px" }}>
                             Job Requests Information
-                          </h3>
+                          </p>
 
                           <br />
                           <table className="table">
