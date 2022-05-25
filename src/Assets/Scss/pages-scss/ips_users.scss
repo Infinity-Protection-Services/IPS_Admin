@@ -41,6 +41,7 @@
   .user-image {
     width: 150px;
     height: 150px;
+    border-radius: 5px;
   }
 }
 .modal-body .pg-viewer-wrapper .pg-viewer {
@@ -82,7 +83,7 @@
       }
     }
     .customer-support-dropdown {
-      background-color: #f4f8fb;
+      background-color: #ffffff;
     }
     .user-table-wrapper {
       margin-top: 45px;

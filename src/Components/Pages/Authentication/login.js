@@ -92,7 +92,7 @@ function Login(props) {
         <Container>
           <Row className="justify-content-center">
             <Col md={8} lg={6} xl={5}>
-              <Card className="overflow-hidden" style={{ paddingTop: "20px",boxShadow: "0 0.75rem 1.5rem rgb(18 38 63 / 42%)"}}>
+              <Card className="overflow-hidden" style={{ paddingTop: "20px",boxShadow: "rgb(18 38 63 / 12%) 0px 0.75rem 1.5rem"}}>
                 <CardBody className="pt-0 mt-15">
                   <div className="pl-9 mt-9 ">
                     <div>

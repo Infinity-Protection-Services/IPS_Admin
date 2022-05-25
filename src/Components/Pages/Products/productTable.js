@@ -170,6 +170,7 @@ function Product(props) {
                 ) : null}
 
                 <div className="customer-support-table-wrapper-new common-wrapper product-table order-table">
+                {/* <div className="customer-support-table-wrapper-new common-wrapper p-r new-jobs-table-wrapper"> */}
                   <MDBDataTable
                     responsive
                     noRecordsFoundLabel={<div className="no-data-found">{props.t("No products found!")}</div>}

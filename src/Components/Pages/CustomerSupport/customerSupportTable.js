@@ -137,7 +137,7 @@ function CustomerSupportTable(props) {
           {/* Suppoprt table */}
           {
             <div className="customer-support-table-wrapper-new common-wrapper p-r new-jobs-table-wrapper order-table">
-              <div className={`col-md-${props.isMobile ? 12 : 12}`} >
+
                 <MDBDataTable
                   noBottomColumns={true}
                   noRecordsFoundLabel={<div className="no-data-found">{props.t("No support requests found!")}</div>}
@@ -167,7 +167,7 @@ function CustomerSupportTable(props) {
                 />
               </div>
 
-            </div>
+
           }
         </>
       }

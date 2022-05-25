@@ -119,7 +119,7 @@ function CategoryTable(props) {
       </div>
 
       {/* Category data table */}
-      <div className="customer-support-table-wrapper-new common-wrapper p-r new-jobs-table-wrapper">
+      <div className="customer-support-table-wrapper-new common-wrapper p-r new-jobs-table-wrapper order-table">
         <MDBDataTable
           noBottomColumns={true}
           noRecordsFoundLabel={<div className="no-data-found">{props.t('No category found!')}</div>}

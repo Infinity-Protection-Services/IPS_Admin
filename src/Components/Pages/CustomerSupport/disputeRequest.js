@@ -139,7 +139,7 @@ function DisputeRequest(props) {
           {/* Dispute table */}
           {
             <div className="customer-support-table-wrapper-new common-wrapper order-table p-r user-table-wrapper">
-              <div className={`col-md-${props.isMobile ? 12 : 12}`}>
+
                 <MDBDataTable
                   noBottomColumns={true}
                   noRecordsFoundLabel={<div className="no-data-found">{props.t("No dispute requests found!")}</div>}
@@ -158,7 +158,7 @@ function DisputeRequest(props) {
                 />
                 <br/>
             Showing 1 to 10 of {data.DispueTable.rows.length} entries.
-              </div>
+
               <commonMethods.DropDown
                 open={drop_align}
                 onClose={() => setdrop_align(!drop_align)}

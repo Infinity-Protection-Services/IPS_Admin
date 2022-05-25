@@ -43,7 +43,7 @@
     height: 28px;
     width: 96px;
     padding: 0px;
-    border-radius: 0px;
+    border-radius: 3px;
     font-size: 9px;
     position: relative;
     text-indent: calc(50% - 79px);
@@ -322,7 +322,7 @@
         }
       }
       .row:nth-child(3) {
-        margin: -7px -30px;
+        margin: -10px -25px;
       }
     }
   }

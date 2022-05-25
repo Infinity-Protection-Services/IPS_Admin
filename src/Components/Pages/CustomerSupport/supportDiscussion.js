@@ -193,6 +193,7 @@ function SupportDiscussion(props) {
                     <RenderDetails label={props.t("Name")} value={data.first_name + " " + data.last_name} />
                     <RenderDetails label={props.t("Role")} value={data.user_type} />
                     <RenderDetails label={props.t("Date Of Query Generated")} value={data.received_date} />
+                    <RenderDetails label={props.t("Status")} value={data.status} />
                     {data.updatedAt ?
                       <RenderDetails label={props.t("Date of query resolved")} value={moment(data.updatedAt).format('MMMM DD, YYYY')} /> :
                       !heading.includes("Support") &&
@@ -256,7 +257,7 @@ function SupportDiscussion(props) {
 
             {/* input message */}
             {data.status_temp !== 1 &&
-              <div className="message-input p-a b-0 w-100p d-flex" style={{ clear: 'left', bottom: '-58px' }} >
+              <div className="message-input p-a b-0 w-100p d-flex" style={{ clear: 'left', bottom: '-60px' }} >
                 <textarea
                   type="textarea" name="description" id="description"
                   style={{ width: "95.5%" }}
